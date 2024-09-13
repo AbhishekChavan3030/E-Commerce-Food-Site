@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Sign Up</title>
+    <link rel="stylesheet" href="/cssfiles/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="card1" id="card1">
+        <form action="" method="post" id="loginform">
+            <div class="login">
+                <div class="inputuser">
+                    <div for="user" class="label">Enter User Name</div>
+                    <input type="text" name="user" id="loginUser" placeholder="Username">
+                </div>
+                <div class="inputpassword">
+                    <div for="password" class="label">Enter Password</div>
+                    <input type="password" name="password" id="loginPassword" placeholder="Password">
+                </div>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Submit" onclick="login(event)">
+                <input type="reset" value="Reset">
+                <input type="button" value="Create Account" id="createaccount">
+            </div>
+        </form>
+    </div>
+
+    <div class="card2" id="card2">
+        <form action="" method="post" id="signupform">
+            <div class="signup">
+                <div class="inputuser">
+                    <div for="fullname" class="label">Enter Full Name</div>
+                    <input type="text" name="fullname" id="fullname" placeholder="Full Name">
+                </div>
+                <div class="inputuser">
+                    <div for="email" class="label">Enter Email ID</div>
+                    <input type="email" name="email" id="email" placeholder="Email ID">
+                </div>
+                <div class="inputuser">
+                    <div for="mobile" class="label">Enter Mobile Number</div>
+                    <input type="number" name="mobile" id="mobile" placeholder="Mobile">
+                </div>
+                <div class="inputuser">
+                    <div for="address" class="label">Enter Address</div>
+                    <input type="text" name="address" id="address" placeholder="Address">
+                </div>
+                <div class="inputuser">
+                    <div for="user" class="label">Enter User Name</div>
+                    <input type="text" name="user" id="signupUser" placeholder="Username">
+                </div>
+                <div class="inputpassword">
+                    <div for="password" class="label">Enter Password</div>
+                    <input type="password" name="password" id="signupPassword" placeholder="Password">
+                </div>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Submit" onclick="signup(event)">
+                <input type="reset" value="Reset">
+                <input type="button" value="Login" id="loginuser">
+            </div>
+        </form>
+    </div>
+
+    <script src="/jsfile/login.js"></script>
+</body>
+
+</html>

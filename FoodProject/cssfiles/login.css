@@ -1,0 +1,82 @@
+body {
+  background-image: url("/Assets/back.jpg");
+  background-size: cover;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  margin: 0%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+}
+#card1 {
+
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid wheat;
+  border-radius: 10px;
+  padding: 50px 75px 50px 75px;
+  width: fit-content;
+  height: fit-content;
+
+
+  color: rgb(255, 255, 255);
+  
+}
+
+#card2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid wheat;
+  border-radius: 10px;
+  padding: 50px 75px 50px 75px;
+  width: fit-content;
+  height: fit-content;
+
+
+  color: rgb(255, 255, 255);
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid wheat;
+  color: wheat;
+  padding: 10px;
+  border-radius: 8px;
+}
+input {
+    margin-bottom: 10px;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  padding: 10px;
+  border: 1px solid wheat;
+  border-radius: 5px;
+}
+label{
+   
+    border: 3px solid red;
+}
+.inputpassword, .inputuser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card2{
+  display: none;
+
+}

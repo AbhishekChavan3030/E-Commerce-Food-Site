@@ -1,0 +1,74 @@
+
+main {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  background-image: url("/Assets/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+}
+body {
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+}
+button {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid wheat;
+  color: wheat;
+  padding: 10px;
+  border-radius: 8px;
+}
+#container {
+  height: 90vh;
+  overflow: scroll;
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px); */
+  flex-wrap: wrap;
+
+  overflow-x: hidden;
+}
+.card {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border: 1px solid wheat;
+  border-radius: 10px;
+  padding: 20px;
+  width: 22%;
+  height: fit-content;
+  margin: 20px;
+  z-index: 0;
+  color: wheat;
+}
+.card h1 {
+  color: white;
+}
+#image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+#image img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+main > button{
+  position: fixed;
+
+
+ 
+
+}
